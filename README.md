@@ -49,6 +49,10 @@ The application will run continuously and react to the flag changes in LaunchDar
 
 ## How it works
 
+Once you create a Boolean Feature Flag you can use it to control the number of restaurants being listed in search results. 
+
+![image](readmeData/ld_create_flag.png)
+
 To observe the flag changes, simply type in an address on the Relicstaurants landing page and click the Search button
 
 If the Boolean Feature Flag is ON, the search results will limit to 5.
@@ -58,4 +62,5 @@ If the Boolean Feature Flag is OFF, the full list of restaurants will be display
 
 LaunchDarkly supports third-party integrations to let you configure the product to your specific needs. In this project we have setup Integration with Observability platform New Relic, which LaunchDarkly sends feature flag change events to New Relic as deployment events. To learn how to set up this integration, read [Using the New Relic events integration](https://launchdarkly.com/docs/integrations/new-relic).
 
+![image](readmeData/nr_change_tracking.png)
 
