@@ -64,3 +64,12 @@ LaunchDarkly supports third-party integrations to let you configure the product 
 
 ![image](readmeData/nr_change_tracking_v2.png)
 
+## LaunchDarkly Context and Segment
+
+Relicstaurants application has been setup to collect Context info based on the `User-Agent` of the customers, therefore you can setup [Rule-based Segments](https://launchdarkly.com/docs/home/flags/rule-based-segments) as an example to target particular type of devices such as iPhone and return a specific experiences. The name of the `key` has been defined as `device`.
+
+Here's how the Rule-based Segment can be setup and add to existing flag:
+
+![image](readmeData/ld_create_segment.png)
+![image](readmeData/ld_flag_with_rule.png)
+
