@@ -62,5 +62,5 @@ If the Boolean Feature Flag is OFF, the full list of restaurants will be display
 
 LaunchDarkly supports third-party integrations to let you configure the product to your specific needs. In this project we have setup Integration with Observability platform New Relic, which LaunchDarkly sends feature flag change events to New Relic as deployment events. To learn how to set up this integration, read [Using the New Relic events integration](https://launchdarkly.com/docs/integrations/new-relic).
 
-![image](readmeData/nr_change_tracking.png)
+![image](readmeData/nr_change_tracking_v2.png)
 
