@@ -51,7 +51,7 @@ The application will run continuously and react to the flag changes in LaunchDar
 
 Once you create a Boolean Feature Flag you can use it to control the number of restaurants being listed in search results. 
 
-![image](readmeData/ld_create_flag.png)
+![image](readmeData/ld_create_flag_v2.png)
 
 To observe the flag changes, simply type in an address on the Relicstaurants landing page and click the Search button
 
