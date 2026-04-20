@@ -55,8 +55,8 @@ Once you create a Boolean Feature Flag you can use it to control the number of r
 
 To observe the flag changes, simply type in an address on the Relicstaurants landing page and click the Search button
 
-If the Boolean Feature Flag is ON, the search results will limit to 5.
-If the Boolean Feature Flag is OFF, the full list of restaurants will be displayed.
+If the Boolean Feature Flag is ON, the full list of restaurants will be displayed.
+If the Boolean Feature Flag is OFF, the search results will limit to 5.
 
 ## Integration
 
